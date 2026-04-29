@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/images/logo/07.png') }}">
-    <title>Travel Africa</title>
+    <title>Coastal Air Co.</title>
     <!-- swiper css -->
     <link rel="stylesheet preload" href="{{ asset('frontend/assets/css/plugins/swiper.min.css') }}" as="style">
     <!-- Custom Font css -->
@@ -68,8 +68,10 @@
                             <div class="left-area">
                                 <div class="logo-area">
                                     <a href="#" class="logo">
-                                        <img class="light" src="{{ asset('frontend/assets/images/logo/07.png') }}" alt="logo" style="width: 40px; height: auto;">
-                                        <img class="dark" src="{{ asset('frontend/assets/images/logo/07.png') }}" alt="logo" style="width: 40px; height: auto;">
+                                        {{-- <img class="light" src="{{ asset('frontend/assets/images/logo/07.png') }}" alt="logo" style="width: 40px; height: auto;">
+                                        <img class="dark" src="{{ asset('frontend/assets/images/logo/07.png') }}" alt="logo" style="width: 40px; height: auto;"> --}}
+                                        <img class="light" src="{{ asset('frontend/assets/images/logo/01.png') }}" alt="logo" style="filter: brightness(0) invert(1); width: 160px; height: auto;">
+                                        <img class="dark" src="{{ asset('frontend/assets/images/logo/01.png') }}" alt="logo" style="width: 160px; height: auto;">
                                     </a>
                                 </div>
                             </div>
@@ -418,6 +420,7 @@
 
     <!-- rts banner area start -->
     <div class="rts-banner-area-five primary-bg">
+
         <div class="container">
             <div class="rts-banner-wrapper">
                 <div class="banner-wrapper-inner">
@@ -1169,7 +1172,7 @@
     <section class="rts-gallery-area rts-section-gapTop body-bg-one">
         <div class="container">
             <div class="gallery-title-area text-center">
-                <p class="sub-title">@travel_africa</p>
+                <p class="sub-title">@coastal_air</p>
                 <h4 class="section-title">Follow Our Instagram</h4>
             </div>
             <div class="section-inner mt--40">
@@ -1235,7 +1238,9 @@
                 <div class="left">
                     <div class="single-footer-widget-one logo-area">
                         <a href="#" class="logo">
-                            <img class="light" src="{{ asset('frontend/assets/images/logo/07.png') }}" alt="logo" style="width: 40px; height: auto;">
+                            {{-- <img class="light" src="{{ asset('frontend/assets/images/logo/07.png') }}" alt="logo" style="width: 40px; height: auto;"> --}}
+                          <img class="dark" src="{{ asset('frontend/assets/images/logo/01.png') }}" alt="logo" style="width: 160px; height: auto;">
+
                         </a>
                         <p class="desc">We take care of every detail you can travel with confidence ease.</p>
                         <div class="call-us">
